@@ -14,7 +14,9 @@ customerAqcuisition = int(0.25 * budget)
 
 customers = int(customerAqcuisition / 5)
 print(f"{Fore.YELLOW} The number of customers aqcuired were {customers}")
-print(f"{Fore.YELLOW} Your total costs were {totalExpenses}: Marketing - {marketingCost} and Operations - {operationalExpenses}")
+print(f"{Fore.YELLOW} Your total costs were {totalExpenses}")
+print(f"{Fore.YELLOW} Marketing - {marketingCost}")
+print(f"{Fore.YELLOW} Operations - {operationalExpenses}")
 print ("---------------------------------- Done with Ahmed's Financial Statement ------------------------------------------------")
 
 
