@@ -28,3 +28,8 @@ else:
 # or logical operators
 if age != a or age <= a:
     print ("This totally works")
+
+num = 5
+while num <= 5:
+    print (num)
+    num += 1
